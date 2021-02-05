@@ -1,0 +1,1 @@
+alert("un chino muerto");
