@@ -1,0 +1,90 @@
+html,
+body {
+  background-color: rgb(32, 32, 41);
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 5px 50px 0px;
+}
+
+.header {
+  background-color: rgb(23, 31, 31);
+  display: flex;
+  justify-content: space-around;
+}
+.header img {
+  width: 200px;
+  height: 200px;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(17, 17, 22);
+  height: 400px;
+}
+.nav__animacion {
+  height: 400px;
+  width: 50%;
+  text-align: center;
+  background-color: blanchedalmond;
+}
+.nav__search {
+  background-color: aqua;
+}
+.nav__button {
+  display: flex;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(65, 31, 31);
+}
+.hero__title {
+  border: 1px solid black;
+  height: 50px;
+}
+.hero__playlist-conteiner {
+  display: flex;
+  flex-direction: row;
+}
+.playlist {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+}
+.playlist__title {
+  text-align: center;
+}
+.playlist__content {
+}
+.hero__album-conteiner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 70px;
+}
+.album {
+  display: flex;
+  border: 1px solid black;
+}
+.album__title {
+}
+.album__content {
+}
+.footer {
+  display: flex;
+  position: fixed;
+  height: 70px;
+  width: 100%;
+  background-color: rgb(22, 20, 20);
+  left: 0;
+  bottom: 0;
+  justify-content: space-around;
+}
+.footer_element-one {
+}
